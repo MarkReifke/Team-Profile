@@ -100,13 +100,29 @@ function askMenu (){
             addEngineer()
         }else if(data.menu === "Add Intern"){
             addIntern()
-        }
+        }else(generatecard)
     
     })
 }
 function addEngineer(){
-    prompt
+    prompt(engineerQuestions)
+    .then(data => {
+        engineer.push(data)
+        console.log(engineer)
+        askMenu();
+        return data
+    })
 }
+function addIntern(){
+    prompt(internQuestions)
+    .then(data => {
+        intern.push(data)
+        console.log(intern)
+        askMenu();
+        return data
+    })
+}
+
 
 inquirer
     .prompt([
