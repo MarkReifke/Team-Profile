@@ -3,7 +3,7 @@ const Employee = require("./lib/Employee");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
-const prompts = require("./src/prompts");
+
 
 const manager = [];
 const employees = [];
@@ -13,67 +13,67 @@ const managerQuestions = [
     {
         type: "input",
         message: "Enter name of manager",
-        name: "name"
-    }
+        name: "name",
+    },
     {
         type: "input",
         message: "Enter manager Id",
-        name: "id"
-    }
+        name: "id",
+    },
     {
         type: "input",
         message: "Enter manager email",
-        name: "email"
-    }
+        name: "email",
+    },
     {
         type: "input",
         message: "Enter manager office number",
-        name: "officeNumber"
+        name: "officeNumber",
     }
 ];
 const engineerQuestions = [
     {
         type: "input",
         message: "Enter name of engineer",
-        name: "name"
-    }
+        name: "name",
+    },
     {
         type: "input",
         message: "Enter engineer Id",
-        name: "id"
-    }
+        name: "id",
+    },
     {
         type: "input",
         message: "Enter engineer email",
-        name: "email"
-    }
+        name: "email",
+    },
     {
         type: "input",
         message: "Enter engineer Github",
-        name: "github"
+        name: "github",
     }
 ];
 const internQuestions = [
     {
         type: "input",
         message: "Enter name of intern",
-        name: "name"
-    }
+        name: "name",
+    },
     {
         type: "input",
         message: "Enter intern Id",
-        name: "id"
-    }
+        name: "id",
+    },
     {
         type: "input",
         message: "Enter intern email",
-        name: "email"
-    }
+        name: "email",
+    },
     {
         type: "input",
         message: "Enter intern school attending",
-        name: "school"
-    }
+        name: "school",
+    },
 ];
 const menu = [
     {
