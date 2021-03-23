@@ -10,8 +10,8 @@ header{
     background-color: blue;
     color: crimson;
     margin: 0px;
-    min-height: 90px;
-    flex-basis: 90%;
+    min-height: 100px;
+    flex-basis: 100%;
 }
 .container{
     display: flex;
