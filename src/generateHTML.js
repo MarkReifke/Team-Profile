@@ -22,6 +22,7 @@ function generateManager(data) {
     <h1>Manager</h1>
     <h1>${data.name}</h1>
         <ul>
+        <li>Name: ${data.name}</li>
         <li>ID Number: ${data.id}</li>
         <li>Email: ${data.email}</li>
         <li>Office Phone Number: ${data.OfficePhoneNumber}</li>
@@ -35,6 +36,7 @@ function generateEngineer(data) {
     <h1>Engineer</h1>
     <h1>${data.name}</h1>
     <ul>
+        <li>Name: ${data.name}</li>
         <li>ID Number: ${data.id}</li>
         <li>Email: ${data.email}</li>
         <li>Github Username: ${data.github}</li>
@@ -47,6 +49,7 @@ return `<div class="box">
     <h1>Employee</h1>
     <h1>${data.name}</h1>
     <ul>
+        <li>Name: ${data.name}</li>
         <li>ID Number: ${data.id}</li>
         <li>Email: ${data.email}</li>
     </ul>   
@@ -58,6 +61,7 @@ return `<div class="box">
     <h1>Intern</h1>
     <h1>${data.name}</h1>
     <ul>
+        <li>Name: ${data.name}</li>
         <li>ID Number: ${data.id}</li>
         <li>Email: ${data.email}</li>
         <li>School Attending: ${data.school}</li>
