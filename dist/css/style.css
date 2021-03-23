@@ -22,28 +22,28 @@ header{
 .box-container{
     display: flex;
     flex-flow: row wrap;
-    margin: 15px;
+    margin: 20px;
     justify-content: center;
     align-items: center;
-    flex-basis: 90%;
+    flex-basis: 100%;
 }
 .box{
-    margin: 15px;
-    width: 250px;
-    height: 350px;
-    border: thick white;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    border: double black;
 }
-.h1{
+.box h1{
     background-color: black;
     color: white;
     margin: 0px;
     text-align: center;
 }
 ul{
-    padding: 5px 10px;
+    padding: 0px 5px;
 }
 li{
     list-style: none;
     text-align: center;
-    padding: 10px 5px;
+    padding: 5px 0px;
 }

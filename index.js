@@ -7,6 +7,7 @@ const Intern = require("./lib/Intern");
 
 const manager = [];
 const employees = [];
+const engineer = [];
 const intern = [];
 
 const managerQuestions = [
