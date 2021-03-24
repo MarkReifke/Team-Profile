@@ -1,5 +1,8 @@
 # Team-Profile
-
+https://github.com/MarkReifke/Team-Profile
+<br>
+My video kept having errors uploading to youtube so I wasnt able to get that part to finish. I was having server issues or something. 
+<br>
 Your Task
 Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
 
